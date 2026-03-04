@@ -1,4 +1,11 @@
 
+# División
+def div(a, b):
+    if b == 0:
+        raise ValueError("No se puede dividir entre 0")
+    return a / b
+
+
 # Potencia
 def power(a, b):
     return a ** b
@@ -22,6 +29,3 @@ def sqrt(x):
 # Porcentaje
 def percent(value, pct):
     return value * (pct / 100)
-
-
-
