@@ -1,4 +1,11 @@
 
+# modulo
+def mod(a, b):
+    if b == 0:
+        raise ValueError("No se puede usar modulo con divisor 0")
+    return a % b
+
+
 # Raiz cuadrada
 import math
 
@@ -10,4 +17,5 @@ def sqrt(x):
 # Porcentaje
 def percent(value, pct):
     return value * (pct / 100)
+
 
