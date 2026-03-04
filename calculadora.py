@@ -1,1 +1,3 @@
-# Aqui van las funciones de la calculadora
+# multiplicación
+def mul(a, b):
+    return a * b
