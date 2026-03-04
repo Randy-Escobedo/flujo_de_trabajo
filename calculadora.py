@@ -1,1 +1,3 @@
-# Aqui van las funciones de la calculadora
+# Porcentaje
+def percent(value, pct):
+    return value * (pct / 100)
