@@ -1,1 +1,3 @@
-# Aqui van las funciones de la calculadora
+# Valor absoluto
+def absolute(x):
+    return abs(x)
