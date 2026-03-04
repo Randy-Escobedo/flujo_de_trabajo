@@ -1,1 +1,3 @@
-# Aqui van las funciones de la calculadora
+# Potencia
+def power(a, b):
+    return a ** b
