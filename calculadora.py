@@ -1,4 +1,9 @@
 
+# Potencia
+def power(a, b):
+    return a ** b
+
+
 # modulo
 def mod(a, b):
     if b == 0:
@@ -17,5 +22,6 @@ def sqrt(x):
 # Porcentaje
 def percent(value, pct):
     return value * (pct / 100)
+
 
 
